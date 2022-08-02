@@ -1,0 +1,70 @@
+* {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/pag1.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+nav {
+  background: #1a1a1a;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conteudo {
+  background-color: rgb(51, 50, 50);
+  width: 850px;
+  display: flex;
+  margin-top: 20px;
+  height: 400px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+
+}
+
+#conteudo label,
+h1 {
+  color: #fff;
+}
+
+#fechar {
+  float: right;
+}
+
+#tabela {
+  text-align: center;
+}
+
+#lista {
+  border-radius: 5px;
+  opacity: 0.9;
+  height: auto;
+  max-height: 320px;
+  overflow: auto;
+  width: 650px;
+}
+
+.total {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+a#pdf{
+  float: right;
+}

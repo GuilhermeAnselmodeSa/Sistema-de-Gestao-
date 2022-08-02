@@ -1,0 +1,21 @@
+* {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/pag1.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+nav {
+  background: #1a1a1a;
+}

@@ -1,0 +1,83 @@
+* {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+#limite-tabela {
+    height: 650px !important;
+    max-height: 650px !important;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/pagcadcliente.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+nav {
+    background: #1a1a1a;
+}
+
+section {
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    padding: 1rem;
+    font-size: 1vw;
+}
+
+form {
+    width: 95%;
+}
+
+#total {
+    width: 95%;
+    margin-top: 15px;
+}
+
+#limpar {
+    margin-left: 17px;
+}
+
+.bi {
+    width: 21px;
+    height: 21px;
+}
+
+svg.bi.bi-x-lg {
+    width: 15px;
+}
+
+svg.bi.bi-search {
+    width: 15px;
+}
+
+#limite-tabela {
+    height: 600px !important;
+    max-height: 650px !important;
+    overflow-x: hidden;
+}
+
+table {
+    margin-top: -50px;
+}
+
+.form-control {
+    margin-bottom: 40px;
+}

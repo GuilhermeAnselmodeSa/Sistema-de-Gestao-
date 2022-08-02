@@ -1,0 +1,29 @@
+* {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.dpcadastro {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.navbar a {
+    font-family: 'Open Sans';
+    font-size: 19px;
+}
+
+.dropdown-menu a:focus {
+    background-color: gray !important;
+}
+
+#imglogo {
+    margin-left: 25px;
+}
